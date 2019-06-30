@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff37474f">
+    <TextView
+        android:text="Choose your method"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:textColor = "@android:color/white"/>
+    <GridLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount= "2"
+        android:rowCount= "2"
+        android:id="@+id/gridLayout1">
+
+        <Button
+            android:id="@+id/StraightBtn"
+            android:textColor = "@android:color/white"
+            android:text="straightforward"
+            android:layout_width="295dp"
+            android:backgroundTint="#ff0c179d"/>
+         <Button
+            android:text="Info"
+            android:backgroundTint="#ff31621f"
+            android:id="@+id/InfoStraightBtn" />
+
+        <Button
+            android:id="@+id/SieveBtn"
+            android:textColor = "@android:color/white"
+            android:text="Sieve of eratosthenes"
+            android:layout_width="295dp"
+            android:backgroundTint="#ff0c179d"/>
+
+         <Button
+            android:text="Info"
+            android:backgroundTint="#ff31621f"
+            android:id="@+id/InfoSieveBtn" />
+
+    </GridLayout>
+
+</LinearLayout>
+

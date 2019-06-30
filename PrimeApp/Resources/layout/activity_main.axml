@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff37474f">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ff37474f">
+        <TextView
+            android:text="Please enter the number of primes you want to calculate:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor = "@android:color/white"
+            android:id="@+id/textView1" />
+
+        <EditText
+            android:id="@+id/NbOfPrimeNumbers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor = "@android:color/white"
+            android:textAlignment = "center" />
+
+        <Button
+            android:id="@+id/CalculateButton"
+            android:textColor = "@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculate"
+            android:backgroundTint="#ff0c179d"
+            android:layout_marginLeft="0.0dp"
+            android:layout_marginRight="0.0dp" />
+
+        <Button
+            android:id="@+id/MethodSelectBtn"
+            android:textColor = "@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select method"
+            android:backgroundTint="#ff0c179d"/>
+
+        <TextView
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment = "center"
+            android:id="@+id/errorText"
+            android:textColor="#ffff0028" />
+    </LinearLayout>
+</ScrollView>
